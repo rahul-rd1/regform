@@ -3,221 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Rahul's Registration Form</title>
-    <link rel="shortcut icon" type="image/jpg" href="https://scontent.fbir1-1.fna.fbcdn.net/v/t1.6435-9/194081486_823928048501136_2623904485069535710_n.jpg?_nc_cat=111&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=U0hGGZn3GnsAX-GxaaJ&_nc_ht=scontent.fbir1-1.fna&oh=8d5229e6358c67b86afa556c38a3e512&oe=6137D9D5">
-    <style type="text/css">
-      *{
-        margin: 0;
-        padding: 0;
-      }
-
-      body{
-        background-image: url(https://scontent.fbir1-1.fna.fbcdn.net/v/t1.6435-9/225654995_859952918231982_3710269062996306699_n.jpg?_nc_cat=104&ccb=1-4&_nc_sid=e3f864&_nc_ohc=Th05Fb2xRmkAX-5JJeV&_nc_ht=scontent.fbir1-1.fna&oh=885d6a5d29ad16ad7c6ed41aca95f673&oe=613A8689);
-        background-position: center;
-        background-size: cover;
-        font-family: sans-serif;
-        margin-top: 40px;
-      }
-
-      .regform{
-        width: 800px;
-        background-color: rgb(0,0,0,0.6);
-        margin: auto;
-        color: #FFFFFF;
-        padding: 10px 0px 10px 0px;
-        text-align: center;
-        border-radius: 15px 15px 0px 0px;
-      }
-
-      .main{
-        background-color: rgb(0,0,0,0.5);
-        width: 800px;
-        margin: auto;
-      }
-
-      form{
-        padding: 10px;
-      }
-
-      #name{
-        width: 100%;
-        height: 100px;
-      }
-
-      .name{
-        margin-left: 25px;
-        margin-top: 30px;
-        width: 125px;
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-      }
-
-      .firstname{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-      }
-
-      .lastname{
-        position: relative;
-        left: 417px;
-        top: -80px;
-        line-height: 40px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-      }
-
-      .firstlabel{
-        position: relative;
-        color: #E5E5E5;
-        text-transform: capitalize;
-        font-size: 14px;
-        left: 203px;
-        top: -45px;
-      }
-
-      .lastlabel{
-        position: relative;
-        color: #E5E5E5;
-        text-transform: capitalize;
-        font-size: 14px;
-        left: 175px;
-        top: -45px;
-      }
-
-      .company{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        width: 480px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-      }
-
-      .email{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        width: 480px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-      }
-
-      .Code{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        width: 95px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-      }
-
-      .number{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        width: 255px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-      }
-
-      .area-code{
-        position: relative;
-        color: #E5E5E5;
-        text-transform: capitalize;
-        font-size: 16px;
-        left: 54px;
-        top: -4px;
-      }
-
-      .phone-number{
-        position: relative;
-        color: #E5E5E5;
-        text-transform: capitalize;
-        font-size: 16px;
-        left: -100px;
-        top: -2px;
-      }
-
-      .option{
-        position: relative;
-        left: 200px;
-        top: -37px;
-        line-height: 40px;
-        width: 532px;
-        height: 40px;
-        border-radius: 6px;
-        padding: 0 22px;
-        font-size: 16px;
-        color: #555;
-        outline: none;
-        overflow: hidden;
-      }
-
-      .option option{
-        font-size: 20px;
-      }
-
-      #student{
-        margin-left: 25px;
-        color: white;
-        font-size: 18px;
-      }
-
-      .radio{
-        display: inline-block;
-        padding-right: 70px;
-        font-size: 25px;
-        margin-left: 25px;
-        margin-top: 15px;
-        color: white;
-      }
-
-      .radio input{
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        cursor: pointer;
-        outline: none;
-      }
-
-      button{
-        background-color: #3BAF9F;
-        display: block;
-        margin: 20px 0px 0px 20px;
-        text-align: center;
-        border-radius: 12px;
-        border: 2px solid #366473;
-        padding: 14px 110px;
-        outline: none;
-        color: white;
-        cursor: pointer;
-        transition: 0.25px;
-      }
-
-      button:hover{
-        background-color: #5390F5;
-      }
-
-    </style>
+    <link rel="shortcut icon" type="image/jpg" href="https://image.flaticon.com/icons/png/512/1436/1436664.png">
+    <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
     <div class="regform"> <h1>Registration Form</h1> </div>
@@ -233,6 +20,15 @@
 
         <h2 class="name">Company</h2>
         <input class="company" type="text" name="company">
+
+        <h2 class="name">Country</h2>
+        <input class="number"type="text" name="country">
+
+        <h2 class="name">District</h2>
+        <input class="number" type="text" name="district">
+
+        <h2 class="name">City / Village</h2>
+        <input class="number" type="text" name="cityvillage">
 
         <h2 class="name">Email</h2>
         <input class="email" type="email" name="email">
@@ -265,6 +61,10 @@
           <span class="checkmark"></span>
           No
         </label>
+
+        <h2 class="terms"> Accept terms and conditions?</h2>
+        <input class="radio" type="checkbox" name="terms" value="" >
+        <label class="radio" for="">Yes</label>
 
         <button type="submit">Register</button>
 
